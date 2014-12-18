@@ -38,8 +38,6 @@ class Tiles
     array
    end
 
-  # http://blog.flatironschool.com/post/64974944098/rubys-7-best-kept-secrets
-
   def validation_new(array)
     hash = {}
     find_all_in_array(array).each do |word|
